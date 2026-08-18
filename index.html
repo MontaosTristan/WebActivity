@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">  <!-- External CSS -->
+    <style>  
+        /* Internal CSS */
+        .intro {
+            background-color: #e6e3e3;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 style="color: white; text-align: center;">Welcome to my Portfolio</h1>  <!-- Inline CSS -->
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="intro">
+        <img class="pfp" src="images/pfp.jpg" alt="Profile Picture" width="90" height="90">
+        <h2>About Me</h2>
+        <p>Good day, I am Tristan Montaos a BSIT student at Adamson University. I have experice in programming languages such as Python, C#, JavaSript and MySQL. 
+            I am currently taking on Mobile Development as I have a passsion for creating applications that can imrpove the lives of people.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <h4>My projects over the years here in Adamson.</h4>
+        <div class="project-card">
+            <img src="images/pg1.png" alt="Project 1">
+            <h3>Vigormin App UI</h3>
+            <p>This project proposes a Vigormin application that monitors microbial levels and water quality near Falcon Bridge, 
+                supporting wastewater management in line with SDG 6: Clean Water and Sanitation.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="images/pg2.png" alt="Project 2">
+            <h3>ATM App UI</h3>
+            <p>This project was a proof-of-concept ATM application designed to provide users with convenient access to 
+                banking services, including fund transfers, purchases, and online deposits. This project also sevres as the aplication of what we learned in Computer Proramming.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div>
+            <p><strong>Email:</strong> yourname@email.com</p>
+            <p><strong>Phone:</strong> 0912-345-6789</p>
+            <p><strong>Location:</strong> Manila, Philippines</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

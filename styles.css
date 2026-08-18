@@ -1,0 +1,140 @@
+h4 {
+    color: #555;
+    text-decoration: underline;
+    opacity: .5;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+/* Header */
+header {
+    background-color: #080808;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #333232;
+    margin: 0;
+    padding: 20px 15px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+   transform: scale(1.2);
+}
+
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: #d3cccc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about {
+    padding: 90px;
+    font-size: 24px;
+}
+
+
+/* Project Cards */
+.project-card {
+    display: inline-block;
+    width: 300px;
+    height: 550px; /* Fixed height instead of min-height */
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-align: justify;
+    box-sizing: border-box;
+    vertical-align: top; /* Prevents inline-block vertical alignment shifts */
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+
+/* Images */
+.pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #969696;
+}
